@@ -1,24 +1,24 @@
-# puts "Enter a number:"
-# temperature = gets.chomp
+puts "Enter a number:"
+temperature = gets.chomp
 
-# if (temperature.to_i > 50) 
-#     puts "Hot"
-# elsif (temperature.to_i > 30)
-#     puts "Mild"
-# else 
-#     puts "Cool"
-# end
+if (temperature.to_i > 50) 
+    puts "Hot"
+elsif (temperature.to_i > 30)
+    puts "Mild"
+else 
+    puts "Cool"
+end
 
-# ismale = true
-# istall = false
+ismale = true
+istall = false
 
-# if ismale && istall
-#     puts "Male and tall"
-# elsif ismale || istall
-#     puts "Male or tall"
-# elsif ismale && !istall
-#     puts "Male and not tall"
-# end
+if ismale && istall
+    puts "Male and tall"
+elsif ismale || istall
+    puts "Male or tall"
+elsif ismale && !istall
+    puts "Male and not tall"
+end
 
 
 def find_max(num1, num2, num3) 
